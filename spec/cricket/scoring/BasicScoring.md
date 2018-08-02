@@ -3,7 +3,7 @@
 As a Cricket Scorer, I want an application to help me add the scores so the score is always up to date.
 
 * I can enter the score for each ball.
-* I can view the score card for all balls to date. 
+* I can view the score card for all balls to date.
 * I can view the total runs scored to date.
 * I can amend mistakes to the score for the previous ball.
 
@@ -26,6 +26,8 @@ Then the Score Card and Total Runs Scored are accumulated as shown.
 | 3 | .13    | 4  |
 | . | .13.   | 4  |
 | 6 | .13.6  | 10 |
+| <-| .13.   | 4  |
+| <-| .13    | 4  |
 
 [enter]: - "#result = enterScore(#entry)"
 [entry]: - "#entry"
